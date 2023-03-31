@@ -1,0 +1,26 @@
+.crxbtn {
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid #0000;
+  font-weight: 600;
+  text-align: center;
+  padding: 5px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  user-select: none;
+  margin-top: -0.5rem;
+  margin-bottom: 1rem;
+  color: #EEE;
+  background-image: linear-gradient(#FCB60A, #F69319 11.5%, #EF6D2A 30.5%, #ED5332 72.7%, #ED6A32 90.0%);
+  display: block;
+  text-decoration: none;
+}
+.crxbtn:hover{
+  border: 1px solid;
+  opacity: 0.7;
+  text-decoration: none;
+}
+button + .crxbtn {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
